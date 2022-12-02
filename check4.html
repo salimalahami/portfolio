@@ -4,51 +4,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>create a portfolio web page</title>
+    <link rel="stylesheet" href="styles.css"/>
      
 </head>
 <body>
     <header>
-<nav>
-    <img src="C:/Users/acer/Desktop/Nouveau dossier (4)/islem.jpg" alt=" photo">
-   
-        <li > <a href=" home"> home </a> </li>
-        <li><a href="/about/"> about</a></li>
-        <li>  <a href="/resume/">  resume </a></li>
-        <li> <a  href="/contact/"> contact</a>  </li>
+<nav> 
+    <div>
+    <img class="image" src="C:\Users\acer\Desktop\islem.jpg" alt="lahami islem">
+    <h1> Lahami Islem</h1>
+     </div>
+    <div>
+   <ul>
+        <li > <a href=" home"><div class="loun">home</div> </a> </li>
+        <li> <a href="/about/"> <div class="loun">about</div></a></li>
+        <li> <a href="/resume/"> <div class="loun">resume</div> </a></li>
+        <li> <a href="/contact/"> <div class="loun">contact</div></a>  </li>
     </ul>
+</div>
 </nav>
 </header>
 <main>
     <section>
-<h3>About</h3>
-<p> I'm 22 years old student on embedded systems and now i'm learning web development
-    and i hope to be a good  web developer <br>
+<h1 id="salima"> HELLO, I'M A STUDENT <br> ON EMBEDDED SYSTEMS.</h1>
+<p> I'm 22 years old student on embedded systems and now  i'm <br> learning web development
+    and i hope to be a good and an excelent <br> web developer also, i'm trying to improve my skills in english and 
+    germany.
 
  </p>
- <iframe width="560" height="315"
+</section>
+ <section id="vedio">
+ <iframe  width="560" height="315"
   src="https://www.youtube.com/embed/xKuJrmlCdig" 
   title="YouTube video player" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-    </section>
+</section>
+   
    
     <section>
         <h3>Work</h3>
-        <p> student  on embedded systems </p>
+        <p id="student"> student  on embedded systems </p>
     </section>
-    <section>
-    <h3>Contact</h3>
+    <h3 class="border">Contact</h3>
+    <section class="blanc">
     <form>
-        full name: <input type="text" name="full name"> <br>
-        Email: <input type="email" name="email"> <br>
-        phone: <input type="number" value="phone">
-       <button>send</button>
+        <table>
+        <tr> <th>name:</th> <td><input class="font" type="text" name="full name"></td> </tr>
+       <tr> <th>Email:</th> <td><input class="font" type="email" name="email"></td></tr> 
+       <tr> <th>phone:</th><td><input class="font" type="number" value="phone"></td></tr>
+       <tr><td><button>send</button></td></tr>
+    </table>
     </form>
-    </section>
+</section>
    </main>
-<footer> islemlahami8@gmail.com</footer>
-
+   <section class="number">
+<footer><em>islemlahami8@gmail.com</em></footer>
+<img src="C:\Users\acer\Documents\Gmail.png" alt="gmail" id="gm">
+<footer><em>islemlahami8</em></footer>
+<img src="C:\Users\acer\Documents\Insta.png" alt="instagram" id="insta" >
+<footer><em>phone number:54657890</em></footer>
+</section>
    
 </body>
 </html>
